@@ -4,7 +4,7 @@
 
 ```hcl
 module "vpc" {
-    source = "BakytaTyn/vpcbatch5/aws"
+    source = "BakytTyn/vpcbatch5/aws"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
     subnet1_cidr = "10.0.1.0/24"
